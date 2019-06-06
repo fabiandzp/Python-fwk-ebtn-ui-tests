@@ -12,6 +12,7 @@ def step_impl(context, link_text):
     links = page.navigation
 
     matching_links = [l for l in links if l.text == link_text]
+    print(matching_links)
 
     if len(matching_links) > 0:
         matching_links[0].click()
