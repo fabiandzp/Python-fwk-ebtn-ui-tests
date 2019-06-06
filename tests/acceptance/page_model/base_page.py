@@ -7,8 +7,8 @@ class BasePage:
 
     @property
     def url(self):
-        return 'http://127.0.0.1:5000'
-        #return ''
+        #return 'http://127.0.0.1:5000'
+        return 'https://qa-ebtn-app-hk.herokuapp.com'
 
     @property
     def title(self):
